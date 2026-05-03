@@ -164,7 +164,7 @@ body{background:#0d0200;min-height:100vh;font-family:'Cormorant Garamond',serif;
   <div class="w-invite-en">You are warmly invited to the Walima Celebration</div>
   <div class="w-info">
     🌹 <b>Shafi Ur Rehman & Ruqyya Khatoon</b><br>
-    <b>Shadi — 30 May 2025</b><br>
+    <b>Shadi — 30 May 2026</b><br>
     نکاح بعد نمازِ ظہر • Nikah After Zuhr<br>
     Kurda, Distt Basti, U.P
   </div>
@@ -197,7 +197,7 @@ body{background:#0d0200;min-height:100vh;font-family:'Cormorant Garamond',serif;
   </div>
   <div class="divrow"><div class="dl"></div><div class="dd"></div><div class="dl"></div></div>
   <div class="dg">
-    <div class="dc"><div class="dl2">Date / تاریخ</div><div class="dv">30 May 2025</div><div class="dv-ur">30 مئی 2025</div></div>
+    <div class="dc"><div class="dl2">Date / تاریخ</div><div class="dv">30 May 2026</div><div class="dv-ur">30 مئی 2026</div></div>
     <div class="dc"><div class="dl2">Event / تقریب</div><div class="dv">Shadi</div><div class="dv-ur">تقریبِ شادی</div></div>
     <div class="dc" style="grid-column:1/-1;text-align:left;">
       <div class="dl2" style="text-align:center;margin-bottom:8px;">Program / پروگرام</div>
@@ -312,7 +312,7 @@ if(gn) document.getElementById('guest-disp').textContent = decodeURIComponent(gn
 // ===== COUNTDOWN =====
 function tick(){
   const now=new Date();
-  const target=new Date('2025-05-30T13:00:00+05:30');
+  const target=new Date('2026-05-30T13:00:00+05:30');
   const diff=target-now;
   if(diff<=0){
     ['cd-d','cd-h','cd-m','cd-s'].forEach(id=>document.getElementById(id).textContent='00');
@@ -429,7 +429,7 @@ function buildQR(){
       <div class="qr-wrap"><img src="${qrUrl}" alt="QR" width="150" height="150" loading="lazy"></div>
       <div class="scan-lbl2">📱 Scan Karein — اسکین کریں</div>
       <div class="qc-div"></div>
-      <div class="qc-date">30 MAY 2025 — SHADI</div>
+      <div class="qc-date">30 MAY 2026 — SHADI</div>
       <div class="qc-venue">📍 Danokuiyan, Sant Kabir Nagar, U.P</div>
       <div class="qc-vur">دانوکوئیاں، ضلع سنت کبیر نگر</div>
       <div class="qc-time">نکاح بعد نمازِ ظہر • Nikah After Zuhr Prayer</div>`;
